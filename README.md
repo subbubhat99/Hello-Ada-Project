@@ -4,6 +4,10 @@ In this project, there was an attempt to develop a simple AI tool using the NLP 
 
 Besides doing the above, this code also allows for using the arrow keys to move the character while the 'c' key on the user's keyboard will change the character's color.
 
+Running the game is simple. You clone this repository and open in VSCode, PyCharm, etc. The file main.py must then be executed and the game starts right away. 
+
+Note: One needs to install python libraries textblob and pygame to run the code successfully. You may use the terminal command line in the code editor(for eg: VSCode) to install them using 'pip'.
+
 # CHALLENGES
 
 1) At present there seems to be an issue with the range of acceptable text commands to move the character or change color. For eg: "move_left" and "left" might be accepted but "turn_left" would not work.
